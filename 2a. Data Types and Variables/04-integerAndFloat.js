@@ -11,5 +11,5 @@ function integerAndFloat(numA, numB, numC) {
     console.log(`${sum} - ${type}`);
 }
 
-integerAndFloat(9, 100, 1.1);
-// integerAndFloat(100, 200, 303);
+integerAndFloat(9, 100, 1.1); //110.1 - Float
+integerAndFloat(100, 200, 303); //603 - Integer
