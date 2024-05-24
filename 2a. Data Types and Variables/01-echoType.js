@@ -9,6 +9,9 @@ function echoType(param) {
     }
 }
 
-echoType('Hello, JavaScript!');
-// echoType(18);
-// echoType(null);
+echoType('Hello, JavaScript!'); //string
+                                //Hello, JavaScript!
+echoType(18); //number
+              //18
+echoType(null); //object
+                //Parameter is not suitable for printing
