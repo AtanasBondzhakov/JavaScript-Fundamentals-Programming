@@ -5,5 +5,5 @@ function requiredReading(pagesCount, pagesPerHour, daysForRead) {
     console.log(hoursPerDay);
 }
 
-requiredReading(212, 20, 2);
-// requiredReading(432, 15, 4);
+requiredReading(212, 20, 2); //5.3
+requiredReading(432, 15, 4); //7.2
