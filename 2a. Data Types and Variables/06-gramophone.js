@@ -4,5 +4,5 @@ function gramophone(band, album, song) {
     console.log(`The plate was rotated ${rotationCount} times.`);
 }
 
-gramophone('Black Sabbath', 'Paranoid', 'War Pigs');
-// gramophone('Rammstein', 'Sehnsucht', 'Engel');
+gramophone('Black Sabbath', 'Paranoid', 'War Pigs'); //The plate was rotated 167 times.
+gramophone('Rammstein', 'Sehnsucht', 'Engel'); //The plate was rotated 81 times.
