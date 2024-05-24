@@ -15,5 +15,5 @@ function triplesOfLatinLetters(numAsStr) {
     }
 }
 
-triplesOfLatinLetters('3');
-// triplesOfLatinLetters('2');
+triplesOfLatinLetters('3'); //
+triplesOfLatinLetters('2'); //aaa aab aba abb baa bab bba bbb
