@@ -8,3 +8,7 @@ function reverseString(str) {
 
     console.log(result);
 }
+
+reverseString('Hello'); //olleH
+reverseString('SoftUni'); //inUtfoS
+reverseString('1234'); //4321
