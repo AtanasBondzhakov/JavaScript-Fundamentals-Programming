@@ -6,6 +6,6 @@ function leapYear(year) {
     }
 }
 
-leapYear(1984);
-leapYear(2003);
-leapYear(4);
+leapYear(1984); //yes
+leapYear(2003); //no
+leapYear(4); //yes
