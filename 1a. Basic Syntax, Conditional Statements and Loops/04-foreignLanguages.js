@@ -11,5 +11,5 @@ function foreignLanguages(country) {
     console.log(language);
 }
 
-foreignLanguages('USA');
-foreignLanguages('Germany');
+foreignLanguages('USA'); //English
+foreignLanguages('Germany'); //unknown
