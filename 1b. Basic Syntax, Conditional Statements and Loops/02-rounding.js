@@ -9,5 +9,5 @@ function rounding(num, precision) {
     console.log(result);
 }
 
-rounding(3.1415926535897932384626433832795,2);
-rounding(10.5,3);
+rounding(3.1415926535897932384626433832795,2); //3.14
+rounding(10.5,3); //10.5
