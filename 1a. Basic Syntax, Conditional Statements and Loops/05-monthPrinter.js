@@ -18,4 +18,5 @@ function monthPrinter(num) {
     console.log(month);
 }
 
-monthPrinter(2);
+monthPrinter(2); //February
+monthPrinter(12); //Error!
