@@ -23,6 +23,8 @@ function login(arr) {
     }
 }
 
-// login(['Acer','login','go','let me in','recA']);
-// login(['momo','omom']);
-login(['sunny', 'rainy', 'cloudy', 'sunny', 'not sunny']);
+login(['Acer','login','go','let me in','recA']); //Incorrect password. Try again.
+                                                 //Incorrect password. Try again.
+                                                 //Incorrect password. Try again.
+                                                 //User Acer logged in.
+login(['momo','omom']); //User momo logged in.
