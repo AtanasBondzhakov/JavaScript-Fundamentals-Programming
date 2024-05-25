@@ -19,7 +19,7 @@ function division(num) {
     }
 }
 
-division(30);
-division(15);
-division(12);
-division(1643);
+division(30); //The number is divisible by 10
+division(15); //The number is divisible by 3
+division(12); //The number is divisible by 6
+division(1643); //Not divisible
