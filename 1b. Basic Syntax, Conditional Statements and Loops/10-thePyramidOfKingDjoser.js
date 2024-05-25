@@ -35,6 +35,8 @@ function thePyramidOfKingDjoser(base, increment) {
     console.log(`Final pyramid height: ${Math.floor(height)}`);
 }
 
-thePyramidOfKingDjoser(11,
-    1
-);
+thePyramidOfKingDjoser(11, 1); //Stone required: 165
+                               //Marble required: 112
+                               //Lapis Lazuli required: 8
+                               //Gold required: 1
+                               //Final pyramid height: 6
