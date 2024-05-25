@@ -7,4 +7,9 @@ function sumOfOddNumbers(num) {
     console.log(`Sum: ${sum}`);
 }
 
-sumOfOddNumbers(5);
+sumOfOddNumbers(5); //1
+                    //3
+                    //5
+                    //7
+                    //9
+                    //Sum: 25
