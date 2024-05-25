@@ -16,7 +16,7 @@ function ages(age) {
     console.log(result);
 }
 
-ages(20);
-ages(1);
-ages(100);
-ages(-1);
+ages(20); //adult
+ages(1); //baby
+ages(100); //elder
+ages(-1); //out of bounds
