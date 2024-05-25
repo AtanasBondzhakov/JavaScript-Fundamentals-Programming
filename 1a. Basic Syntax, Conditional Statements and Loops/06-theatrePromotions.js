@@ -47,7 +47,5 @@ function theatrePromotions(dayType, age) {
     }
 }
 
-theatrePromotions('Weekday', 
-42
-);
-theatrePromotions('Holiday', -12);
+theatrePromotions('Weekday', 42); //18$
+theatrePromotions('Holiday', -12); //Error!
