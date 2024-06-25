@@ -1,7 +1,4 @@
-# Exercise: JS Basic Syntax, Conditional Statements, and Loops
-
-Submit your solutions in the SoftUni judge system at:
-<https://judge.softuni.org/Contests/1207>
+# JS Basic Syntax, Conditional Statements, and Loops
 
 ## Ages
 
@@ -10,17 +7,17 @@ person is: **baby**, **child**, **teenager**, **adult**, **elder**.
 
 The input comes as a **single number parameter**. The bounders are:
 
-**0-2 (age) – is a baby;**
+- **0-2 (age) – is a baby;**
 
-**3-13 (age) – is a child;**
+- **3-13 (age) – is a child;**
 
-**14-19 (age) – is a teenager;**
+- **14-19 (age) – is a teenager;**
 
-**20-65 (age) – is an adult;**
+- **20-65 (age) – is an adult;**
 
-**\>=66 (age) – is an elder;**
+- **\>=66 (age) – is an elder;**
 
-In all other cases print **–** "**out of bounds**";
+- In all other cases print **–** "**out of bounds**";
 
 The **output** should be printed to the console.
 
@@ -198,11 +195,11 @@ a triangle from **1 to n** as in the examples.
 
 ### Constraints
 
-**n** will be in the interval \[**1...20\]**.
+- **n** will be in the interval \[**1...20\]**.
 
 ### Examples
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col style="width: 11%" />
 <col style="width: 13%" />
@@ -262,7 +259,8 @@ Print every row of the table in the following format:
 
 ### Constraints
 
-The number will be an **integer** will be in the interval **\[1…100\].**
+- The number will be an **integer** will be in the interval
+  **\[1…100\].**
 
 ### Examples
 
@@ -361,7 +359,7 @@ username and **each** subsequent string is a password.
 </tbody>
 </table>
 
-**\* The Pyramid of King Djoser**
+1.  **\* The Pyramid of King Djoser**
 
 Write a JS program that calculates how much resources will be required
 for the construction of a pyramid. It is made out of **stone**,
@@ -369,8 +367,8 @@ for the construction of a pyramid. It is made out of **stone**,
 integer that will be the **base** width and length of the pyramid and an
 **increment** that is the height of each step. The bulk is made out of
 stone, while the **outer layer** is made out of marble. **Every fifth
-step<span dir="rtl">’</span>s** outer layer is made out of lapis lazuli
-**instead** of marble. The **final step** is made out of gold.
+step’s** outer layer is made out of lapis lazuli **instead** of marble.
+The **final step** is made out of gold.
 
 The pyramid is built with **1x1 blocks** with a **height** equal to the
 given **increment**. The first step of the pyramid has a **width** and
@@ -381,7 +379,7 @@ covered in marble, blue steps are covered in lapis lazuli (**every fifth
 layer from the bottom**), and yellow steps are made **entirely** out of
 gold (**top-most step**).
 
-<img src="media/image1.png" style="width:6.49986in;height:1.18978in"
+<img src="media/image1.png" style="width:6.5in;height:1.18958in"
 alt="Picture 5" />
 
 Since the **outer layer** of each step is made of decorative material,
@@ -394,7 +392,7 @@ it by 4 (to compensate for the overlapping corners), and multiply the
 result by the increment. See the drawing for details (grey is stone,
 white is decoration).
 
-<table>
+<table style="width:100%;">
 <colgroup>
 <col style="width: 31%" />
 <col style="width: 33%" />
@@ -441,120 +439,48 @@ the pyramid **rounded down**, as shown in the examples.
 
 ### Constraints
 
-The **base** will always be an integer greater than zero
+- The **base** will always be an integer greater than zero
 
-The **increment** will always be a number greater than zero
+- The **increment** will always be a number greater than zero
 
-**Number.MAX_SAFE_INTEGER** will **never be exceeded** for any of the
-calculations
+- **Number.MAX_SAFE_INTEGER** will **never be exceeded** for any of the
+  calculations
 
 ### Examples
 
 <table>
 <colgroup>
-<col style="width: 7%" />
-<col style="width: 31%" />
-<col style="width: 6%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
-<col style="width: 10%" />
+<col style="width: 33%" />
+<col style="width: 66%" />
 </colgroup>
 <thead>
 <tr>
 <th style="text-align: center;"><strong>Input</strong></th>
 <th style="text-align: center;"><strong>Output</strong></th>
-<th colspan="6"
-style="text-align: center;"><strong>Explanation</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td rowspan="8"><p>11,</p>
+<td><p>11,</p>
 <p>1</p></td>
-<td rowspan="8"><p>Stone required: 165</p>
+<td><p>Stone required: 165</p>
 <p>Marble required: 112</p>
 <p>Lapis Lazuli required: 8</p>
 <p>Gold required: 1</p>
 <p>Final pyramid height: 6</p></td>
-<td style="text-align: center;">Step</td>
-<td style="text-align: center;">Size</td>
-<td style="text-align: center;">Stone</td>
-<td style="text-align: center;">Marble</td>
-<td style="text-align: center;">Lapis</td>
-<td style="text-align: center;">Gold</td>
-</tr>
-<tr>
-<td style="text-align: right;">1<sup>st</sup></td>
-<td style="text-align: center;">11x11</td>
-<td style="text-align: center;">81</td>
-<td style="text-align: center;">40</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: right;">2<sup>nd</sup></td>
-<td style="text-align: center;">9x9</td>
-<td style="text-align: center;">49</td>
-<td style="text-align: center;">32</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: right;">3<sup>rd</sup></td>
-<td style="text-align: center;">7x7</td>
-<td style="text-align: center;">25</td>
-<td style="text-align: center;">24</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: right;">4<sup>th</sup></td>
-<td style="text-align: center;">5x5</td>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: right;">5<sup>th</sup></td>
-<td style="text-align: center;">3x3</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">-</td>
-</tr>
-<tr>
-<td style="text-align: right;">6<sup>th</sup></td>
-<td style="text-align: center;">1x1</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">-</td>
-<td style="text-align: center;">1</td>
-</tr>
-<tr>
-<td style="text-align: right;">total</td>
-<td style="text-align: center;">Height=6</td>
-<td style="text-align: center;">165</td>
-<td style="text-align: center;">112</td>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">1</td>
 </tr>
 </tbody>
 </table>
 
 <table>
 <colgroup>
-<col style="width: 7%" />
-<col style="width: 31%" />
-<col style="width: 60%" />
+<col style="width: 23%" />
+<col style="width: 76%" />
 </colgroup>
 <thead>
 <tr>
 <th style="text-align: center;"><strong>Input</strong></th>
 <th style="text-align: center;"><strong>Output</strong></th>
-<th style="text-align: center;"><strong>Explanation</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -566,14 +492,6 @@ style="text-align: center;"><strong>Explanation</strong></th>
 <p>Lapis Lazuli required: 6</p>
 <p>Gold required: 1</p>
 <p>Final pyramid height: 4</p></td>
-<td><p>Total <strong>stone</strong> is
-81*0.75+49*0.75+25*0.75+9*0.75+1*0.75 = 123.75, we round up to 124.</p>
-<p>Total <strong>marble</strong> is
-40*0.75+32*0.75+24*0.75+16*0.75=84.</p>
-<p>Total <strong>lapis lazuli</strong> is 8*0.75=6.</p>
-<p>Total <strong>gold</strong> is 1*0.75=0.75, we round up to 1.</p>
-<p>Total <strong>height</strong> is 4.5 (6 <strong>steps</strong> times
-0.75), we round down to 4.</p></td>
 </tr>
 </tbody>
 </table>
@@ -641,32 +559,32 @@ the mine.
 
 Print on the **console these lines in the following formats**:
 
-**First-line** prints the **total** **amount** of bought **bitcoins**:
+- **First-line** prints the **total** **amount** of bought **bitcoins**:
 
 > **\`Bought bitcoins: {count}\`**
 
-**Second-line** prints **which day** you **bought** your **first
-bitcoin**:
+- **Second-line** prints **which day** you **bought** your **first
+  bitcoin**:
 
 > **\`Day of the first purchased bitcoin: {day}\`**
 
 In case you **did not** **purchase any bitcoins,** do not print the
 second line.
 
-**Third-line** prints the **amount** of **money** that’s left after the
-bitcoin purchases **rounded by the second digit** after the decimal
-point:
+- **Third-line** prints the **amount** of **money** that’s left after
+  the bitcoin purchases **rounded by the second digit** after the
+  decimal point:
 
 > **\`Left money: {money} lv.\`**
 
 ### Constraints
 
-The **input** array may contain up to **1,000** elements
+- The **input** array may contain up to **1,000** elements
 
-The numbers in the array are in the range **\[0.01..5,000.00\]
-inclusive**
+- The numbers in the array are in the range **\[0.01..5,000.00\]
+  inclusive**
 
-Allowed time/memory: 100ms/16MB
+- Allowed time/memory: 100ms/16MB
 
 ### Examples
 
@@ -687,40 +605,6 @@ Allowed time/memory: 100ms/16MB
 <td><p>Bought bitcoins: 2</p>
 <p>Day of the first purchased bitcoin: 2</p>
 <p>Left money: 10531.78 lv.</p></td>
-</tr>
-</tbody>
-</table>
-
-Scroll down to see the explanation for the first example and more
-examples.
-
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr>
-<th style="text-align: center;"><strong>Explanation</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><p><strong>Day 1</strong> – you dig up <strong>100 g</strong> of
-gold then exchange it for <strong>6751.00 lv.</strong></p>
-<p><strong>Day 2</strong> – you dig up <strong>200 g</strong> of gold
-then exchange it for <strong>13,502.00 lv.</strong> and the total amount
-of money is <strong>20,253.00 lv.</strong> Then you buy <strong>1
-Bitcoin</strong> which leaves you with <strong>8,303.84 lv.</strong>
-Also, this purchase is the <strong>first day you bought
-bitcoin</strong>.</p>
-<p><strong>Day 3</strong> – you dig up <strong>300 g</strong> of gold
-but then <strong>30%</strong> of it is stolen and your gold drops to
-<strong>210 g</strong> which you exchange for <strong>14,177.10
-lv.</strong> making your total amount of money <strong>22,480.94
-lv.</strong> Then you buy <strong>1 Bitcoin</strong> making the final
-amount of money that you have <strong>left with</strong>
-<strong>10,531.78 lv.</strong> with <strong>2 bought
-Bitcoins.</strong></p></td>
 </tr>
 </tbody>
 </table>
