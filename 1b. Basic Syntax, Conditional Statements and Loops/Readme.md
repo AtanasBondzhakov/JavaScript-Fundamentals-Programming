@@ -1,4 +1,4 @@
-# JS Basic Syntax, Conditional Statements, and Loops
+# Exercise JS Basic Syntax, Conditional Statements, and Loops
 
 ## Ages
 
