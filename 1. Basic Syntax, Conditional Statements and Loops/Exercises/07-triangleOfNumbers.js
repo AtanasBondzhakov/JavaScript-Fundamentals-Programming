@@ -7,7 +7,3 @@ function triangleOfNumbers(num) {
         console.log(buff);
     }
 }
-
-triangleOfNumbers(3); //1
-                      //2 2 
-                      //3 3 3
