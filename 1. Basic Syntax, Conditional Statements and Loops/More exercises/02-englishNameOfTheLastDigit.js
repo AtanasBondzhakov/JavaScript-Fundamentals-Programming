@@ -18,7 +18,3 @@ function englishNameOfTheLastDigit(num) {
     
     console.log(result);
 }
-
-englishNameOfTheLastDigit(512); //two
-englishNameOfTheLastDigit(1); //one
-englishNameOfTheLastDigit(1643); //three
