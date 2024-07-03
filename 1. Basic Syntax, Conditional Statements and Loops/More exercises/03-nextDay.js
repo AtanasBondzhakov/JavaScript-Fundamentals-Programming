@@ -5,6 +5,3 @@ function nextDay(year, month, day) {
     let newDay = date.getDate();
     console.log(`${newYear}-${newMonth}-${newDay}`);
 }
-
-nextDay(2016, 9, 30); //2016-10-1
-nextDay(2020, 3, 24); //2020-3-25
