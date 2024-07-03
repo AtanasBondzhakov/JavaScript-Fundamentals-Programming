@@ -30,7 +30,3 @@ function bitcoinMining(arr) {
     
     console.log(`Left money: ${moneyLeft.toFixed(2)} lv.`);
 }
-
-bitcoinMining([3124.15, 504.212, 2511.124]); //Bought bitcoins: 30
-                                             //Day of the first purchased bitcoin: 1
-                                             //Money left: 5144.11 lv.
