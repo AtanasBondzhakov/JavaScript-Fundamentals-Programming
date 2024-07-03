@@ -5,7 +5,3 @@ function leapYear(year) {
         console.log('no');
     }
 }
-
-leapYear(1984); //yes
-leapYear(2003); //no
-leapYear(4); //yes
