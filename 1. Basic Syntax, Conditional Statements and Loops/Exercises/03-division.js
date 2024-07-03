@@ -18,8 +18,3 @@ function division(num) {
         console.log(`The number is divisible by ${divisionNum}`);
     }
 }
-
-division(30); //The number is divisible by 10
-division(15); //The number is divisible by 3
-division(12); //The number is divisible by 6
-division(1643); //Not divisible
