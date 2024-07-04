@@ -30,24 +30,3 @@ function chessBoard(num) {
     }
     console.log(`</div>`);
 }
-
-chessBoard(3);
-/*
-<div class="chessboard">
-  <div>
-    <span class="black"></span>
-    <span class="white"></span>
-    <span class="black"></span>
-  </div>
-  <div>
-    <span class="white"></span>
-    <span class="black"></span>
-    <span class="white"></span>
-  </div>
-  <div>
-    <span class="black"></span>
-    <span class="white"></span>
-    <span class="black"></span>
-  </div>
-</div>
- */
