@@ -8,6 +8,3 @@ function lowerOrUpper(char) {
 
     console.log(result);
 }
-
-lowerOrUpper('L'); //upper-case
-lowerOrUpper('f'); //lower-case
