@@ -16,7 +16,3 @@ function digitsWithWords(numAsStr) {
 
     console.log(result);
 }
-
-digitsWithWords('nine'); //9
-digitsWithWords('two'); //2
-digitsWithWords('zero'); //0
