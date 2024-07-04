@@ -9,7 +9,3 @@ function sumDigits(num) {
     
     console.log(sum);
 }
-
-sumDigits(245678); //32
-sumDigits(97561); //28
-sumDigits(543); //12
