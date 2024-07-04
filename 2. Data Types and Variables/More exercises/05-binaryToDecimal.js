@@ -8,6 +8,3 @@ function binaryToDecimal(binaryAsStr) {
     }
     console.log(sum);
 }
-
-binaryToDecimal('00001001'); //9
-binaryToDecimal('11110000'); //240
