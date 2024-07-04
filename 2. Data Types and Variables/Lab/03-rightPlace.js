@@ -11,6 +11,3 @@ function rightPlace(str, char, replacer) {
     
     result === replacer ? console.log('Matched') : console.log('Not Matched');
 }
-
-rightPlace('Str_ng', 'I', 'Strong'); //Not Matched
-rightPlace('Str_ng', 'i', 'String'); //Matched
