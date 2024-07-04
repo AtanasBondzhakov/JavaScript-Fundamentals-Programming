@@ -17,9 +17,3 @@ function spiceMustFlow(initialYield) {
     console.log(days);
     console.log(totalSpices);
 }
-
-spiceMustFlow(111); //2
-                    //134
-
-spiceMustFlow(450); //36
-                    //8938
