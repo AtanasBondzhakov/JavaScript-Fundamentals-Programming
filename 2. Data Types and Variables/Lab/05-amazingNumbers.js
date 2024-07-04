@@ -18,6 +18,3 @@ function amazingNumbers(num) {
     
     console.log(`${num} Amazing? ${isAmazing}`);
 }
-
-amazingNumbers(1233); //1233 Amazing? True
-amazingNumbers(999); //999 Amazing? False
