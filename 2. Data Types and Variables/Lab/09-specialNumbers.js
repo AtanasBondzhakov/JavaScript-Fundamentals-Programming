@@ -16,21 +16,3 @@ function specialNumbers(num) {
         console.log(`${i} -> ${isSpecial}`);
     }
 }
-
-specialNumbers(15); 
-//1 -> False
-//2 -> False
-//3 -> False
-//4 -> False
-//5 -> True
-//6 -> False
-//7 -> True
-//8 -> False
-//9 -> False
-//10 -> False
-//11 -> False
-//12 -> False
-//13 -> False
-//14 -> True
-//15 -> False
-
