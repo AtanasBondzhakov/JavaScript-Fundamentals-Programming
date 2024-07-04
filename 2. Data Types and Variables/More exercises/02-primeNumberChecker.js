@@ -10,7 +10,3 @@ function primeNumberChecker(num) {
 
     return isPrime
 }
-
-console.log(primeNumberChecker(7)); //true
-console.log(primeNumberChecker(8)); //false
-console.log(primeNumberChecker(81)); //false
