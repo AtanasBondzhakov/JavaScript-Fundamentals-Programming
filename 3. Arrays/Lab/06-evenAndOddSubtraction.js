@@ -13,7 +13,3 @@ function evenAndOddSubtraction(arr) {
     let result = sumOfEven - sumOfOdd;
     console.log(result);
 }
-
-evenAndOddSubtraction([1, 2, 3, 4, 5, 6]); //3
-evenAndOddSubtraction([3, 5, 7, 9]); //-24
-evenAndOddSubtraction([2, 4, 6, 8, 10]); //30
