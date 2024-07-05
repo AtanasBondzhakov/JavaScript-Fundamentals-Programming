@@ -34,6 +34,3 @@ function steamAccount(data) {
     }
     console.log(account.join(' '));
 }
-
-steamAccount(['CS WoW Diablo', 'Install LoL', 'Uninstall WoW', 'Update Diablo', 'Expansion CS-Go', 'Play!']); //CS CS:Go LoL Diablo
-steamAccount(['CS WoW Diablo', 'Uninstall XCOM', 'Update PeshoGame', 'Update WoW', 'Expansion Civ-V', 'Play!']); //CS Diablo WoW
