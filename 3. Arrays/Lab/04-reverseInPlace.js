@@ -7,7 +7,3 @@ function reverseInPlace(arr) {
     }
     console.log(arr.join(' '));
 }
-
-reverseInPlace(['a', 'b', 'c', 'd', 'e']); //e d c b a
-reverseInPlace(['abc', 'def', 'hig', 'klm', 'nop']); //nop klm hig def abc
-reverseInPlace(['33', '123', '0', 'dd']); //dd 0 123 33
