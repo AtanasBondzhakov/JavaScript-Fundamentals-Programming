@@ -12,7 +12,3 @@ function addAndRemove(arr) {
 
     result.length > 0 ? console.log(result.join(' ')) : console.log('Empty');
 }
-
-addAndRemove(['add', 'add', 'add', 'add']); //1 2 3 4
-addAndRemove(['add', 'add', 'remove', 'add', 'add']); //1 4 5
-addAndRemove(['remove', 'remove', 'remove']); //Empty
