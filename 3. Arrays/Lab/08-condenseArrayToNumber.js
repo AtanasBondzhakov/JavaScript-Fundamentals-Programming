@@ -13,7 +13,3 @@ function condenseArrayToNumber(arr) {
 
     console.log(arr.join(''));
 }
-
-condenseArrayToNumber([2, 10, 3]); //25
-condenseArrayToNumber([5, 0, 4, 1, 2]); //35
-condenseArrayToNumber([1]); //1
