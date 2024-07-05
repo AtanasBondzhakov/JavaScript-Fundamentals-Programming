@@ -15,7 +15,3 @@ function dayOfWeek(dayAsNum) {
         console.log('Invalid day!');
     }
 }
-
-dayOfWeek(3); //Wednesday
-dayOfWeek(6); //Saturday
-dayOfWeek(11); //Invalid day!
