@@ -13,6 +13,3 @@ function factorialDivision(firstNum, secondNum) {
     const result = firstFactorial / secondFactorial;
     console.log(result.toFixed(2));
 }
-
-factorialDivision(5, 2); //60.00
-factorialDivision(6, 2); //360.00
