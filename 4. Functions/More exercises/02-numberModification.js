@@ -20,6 +20,3 @@ function numberModification(num) {
 
     console.log(numAsStr);
 }
-
-numberModification(101); //1019999
-numberModification(5835); //5835
