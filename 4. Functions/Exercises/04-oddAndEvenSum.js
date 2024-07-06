@@ -30,6 +30,3 @@ function oddAndEvenSum(num) {
 
     resultMessage(oddSum, evenSum);
 }
-
-oddAndEvenSum(1000435); //Odd sum = 9, Even sum = 4
-oddAndEvenSum(3495892137259234); //Odd sum = 54, Even sum = 22
