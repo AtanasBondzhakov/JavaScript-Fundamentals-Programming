@@ -21,10 +21,3 @@ function loadingBar(num) {
         console.log('Still loading...');
     }
 }
-
-loadingBar(30); //30% [%%%.......]
-                //Still loading...
-loadingBar(50); //50% [%%%%%.....]
-                //Still loading...
-loadingBar(100); //100% Complete!
-                 //[%%%%%%%%%%]
