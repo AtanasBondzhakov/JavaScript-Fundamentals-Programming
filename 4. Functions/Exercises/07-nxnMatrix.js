@@ -11,7 +11,3 @@ function nxnMatrix(num) {
         console.log(result.join(' '));
     }
 }
-
-nxnMatrix(3); //3 3 3
-              //3 3 3
-              //3 3 3
