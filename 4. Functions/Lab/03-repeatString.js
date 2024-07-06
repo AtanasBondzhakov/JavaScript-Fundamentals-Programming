@@ -7,6 +7,3 @@ function repeatString(text, count) {
 
     return result;
 }
-
-repeatString("abc", 3); //abcabcabc
-repeatString("String", 2); //StringString
