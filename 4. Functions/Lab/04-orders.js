@@ -18,6 +18,3 @@ function orders(product, quantity) {
 
     console.log(total.toFixed(2));
 }
-
-orders("water", 5); //5.00
-orders("coffee", 2); //3.00
