@@ -67,7 +67,3 @@ function radioCrystals(params) {
         console.log('Transporting and washing');
     }
 }
-
-// radioCrystals([1375, 50000]);
-// radioCrystals([1000, 4000, 8100]);
-radioCrystals([1000, 800]);
