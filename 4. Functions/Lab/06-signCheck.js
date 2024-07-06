@@ -30,7 +30,3 @@ function signCheck(num1, num2, num3) {
     console.log(result);
 }
 
-signCheck(5, 12, -15); //Negative
-signCheck(-6, -12, 14); //Positive
-signCheck(-1, -2, -3); //Negative
-
