@@ -22,5 +22,3 @@ function printDNA(count) {
         console.log(`${star}${char1}${dash}${char2}${star}`);
     }
 }
-
-printDNA(10);
