@@ -34,9 +34,3 @@ function passwordValidator(password) {
         console.log('Password is valid');
     }
 }
-
-passwordValidator('logIn'); //Password must be between 6 and 10 characters
-                            //Password must have at least 2 digits
-passwordValidator('MyPass123'); //Password is valid
-passwordValidator('Pa$s$s'); //Password must consist only of letters and digits
-                             //Password must have at least 2 digits
