@@ -20,6 +20,3 @@ function carWash(commands) {
 
     console.log(`The car is ${cleanliness.toFixed(2)}% clean.`);
 }
-
-carWash(['soap', 'soap', 'vacuum cleaner', 'mud', 'soap', 'water']); //The car is 39.00% clean.
-carWash(["soap", "water", "mud", "mud", "water", "mud", "vacuum cleaner"]); //The car is 13.12% clean.
