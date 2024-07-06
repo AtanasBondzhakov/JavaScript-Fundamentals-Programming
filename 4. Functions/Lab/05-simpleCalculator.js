@@ -14,8 +14,3 @@ function simpleCalculator(num1, num2, operator) {
         return divide(num1, num2);
     }
 }
-
-simpleCalculator(5, 5, 'multiply'); //25
-simpleCalculator(40, 8, 'divide'); //5
-simpleCalculator(12, 19, 'add'); //31
-simpleCalculator(50, 13, 'subtract'); //37
