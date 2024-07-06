@@ -17,6 +17,3 @@ function palindromeIntegers(numbers) {
         return console.log(str1 === str2);
     }
 }
-
-palindromeIntegers([123, 323, 421, 121]); //false true false true
-palindromeIntegers([32, 2, 232, 1010]); //false true true false
