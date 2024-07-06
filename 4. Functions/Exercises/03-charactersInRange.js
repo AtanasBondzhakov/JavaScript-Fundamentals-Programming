@@ -12,7 +12,3 @@ function charactersInRange(firstChar, secondChar) {
 
     console.log(result.join(' '));
 }
-
-charactersInRange('a', 'd'); //b c
-charactersInRange('#', ':'); //$ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9
-charactersInRange('C', '#'); //$ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B
