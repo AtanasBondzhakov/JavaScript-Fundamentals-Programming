@@ -6,8 +6,3 @@ function firstAndLastKNumbers(numbers) {
     console.log(firstKNumbers.join(' '));
     console.log(lastKNumbers.join(' '));
 }
-
-firstAndLastKNumbers([2, 7, 8, 9]); //7 8
-                                    //8 9
-firstAndLastKNumbers([3, 6, 7, 8, 9]); //6 7 8
-                                       //7 8 9
