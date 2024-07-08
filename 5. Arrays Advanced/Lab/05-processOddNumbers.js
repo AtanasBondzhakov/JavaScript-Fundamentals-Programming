@@ -5,6 +5,3 @@ function processOddNumbers(numbers) {
 
         console.log(result.join(' '));
 }
-
-processOddNumbers([10, 15, 20, 25]); //50 30
-processOddNumbers([3, 0, 10, 4, 7, 3]); //6 8 0
