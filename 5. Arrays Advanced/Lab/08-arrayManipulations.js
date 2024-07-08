@@ -19,14 +19,3 @@ function arrayManipulations(arr) {
 
     console.log(result.join(' '));
 }
-
-arrayManipulations(['4 19 2 53 6 43',
-    'Add 3',
-    'Remove 2',
-    'RemoveAt 1',
-    'Insert 8 3']); //4 53 6 8 43 3
-arrayManipulations(['6 12 2 65 6 42',
-    'Add 8',
-    'Remove 12',
-    'RemoveAt 3',
-    'Insert 6 2']); //6 2 6 65 42 8
