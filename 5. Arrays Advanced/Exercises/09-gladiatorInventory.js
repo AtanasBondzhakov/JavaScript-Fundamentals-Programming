@@ -32,13 +32,3 @@ function gladiatorInventory(data) {
     }
     console.log(inventory.join(' '));
 }
-
-gladiatorInventory(['SWORD Shield Spear',
-'Buy Bag',
-'Trash Shield',
-'Repair Spear',
-'Upgrade SWORD-Steel']); //SWORD SWORD:Steel Bag Spear
-gladiatorInventory(['SWORD Shield Spear',
-    'Trash Bow',
-    'Repair Shield',
-    'Upgrade Helmet-V']); //SWORD SWORD:Steel Bag Spear
