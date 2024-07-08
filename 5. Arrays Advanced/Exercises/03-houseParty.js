@@ -24,21 +24,4 @@ function houseParty(data) {
 
     console.log(guestsList.join('\n'));
 }
-
-houseParty(['Allie is going!',
-    'George is going!',
-    'John is not going!',
-    'George is not going!']); //John is not in the list!
-                              // Allie
-    
-
-houseParty(['Tom is going!',
-    'Annie is going!',
-    'Tom is going!',
-    'Garry is going!',
-    'Jerry is going!']); //Tom is already in the list!
-                         //Tom
-                         //Annie
-                         //Garry
-                         //Jerry
     
