@@ -16,5 +16,3 @@ function destinationMapper(text) {
     console.log(`Destinations: ${destinations.join(', ')}`);
     console.log(`Travel Points: ${travelPoints}`);
 }
-
-destinationMapper('ThisIs some InvalidInput');
